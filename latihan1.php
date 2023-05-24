@@ -1,5 +1,8 @@
 <?php
 $x = 10;
+function index(){
+    return Redirect::action('')
+}
 
 function printX(){
     global $x;
